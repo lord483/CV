@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Me</title>
+</head>
+<body>
+    <h2>Contact details</h2>
+    <p>Email IDs</p>
+    <ul>
+        <li>bhardwajmd1@gmail.com</li>
+        <li>bhardwajmd1@outlook.com</li>
+    </ul>
+    <p>Phone Numbers</p>
+    <ul>
+        <li>8058263828</li>
+        <li>8112292740</li>
+    </ul>
+    <form action="mailto:bhardwajmd1@outlook.com" method="POST" enctype="text/plain">
+        <div class="user_info" id="name">
+            <label for="name">Your Name:</label>
+            <input type="text" name="name">
+        </div>
+        <div class="user_info" id="email">
+            <label for="email">Your Email:</label>
+            <input type="email" name="email"><br>
+        </div>
+        <div class="user_info" id="message">
+            <label for="message">Your Message</label><br>
+            <textarea name="message" cols="30" rows="10"></textarea><br>
+        </div>
+        <div class="submit_btn" id="sub_btn">
+            <input type="submit" value="Submit">
+        </div>
+    </form>
+</body>
+</html>
